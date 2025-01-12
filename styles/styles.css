@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-container{
+    text-align: center;
+}
+.hero{
+    
+    background: linear-gradient(0deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%),url("../assets/hero-bg.png");
+    width: 1920px;
+    height: 959px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.hero .bakso{
+    width: 1023px;
+    height: 391px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+   margin-bottom: 14px;
+}
+.hero .bakso #pera{
+   
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero .title{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+.hero .Lpara{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 32px;
+}
+.btn{
+    padding: 14px 18px 14px 18px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+}
+
+#card-box
+{
+    width: 1320px;
+    margin: 150px auto;
+}
+#card-box .title
+{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box .subtitle{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-container
+{
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Work Sans;
+}
+.card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 300px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop
+{
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+
+
+
+
+
+
+
+#social-page{
+    background-image: url("/assets/social-bg.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: Work Sans;
+}
+#social-page .overlay{
+    display: block;
+    width: 100%;
+    height: 370px;
+    background: linear-gradient(
+        rgba(250, 248, 248, 0.862),
+        rgba(255, 255, 255, 0.71)
+    );
+    padding: 80px 0;
+}
+#social-page .social-container{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    height:100%;
+}
+
+#social-page .social-content
+{
+    width: 100%;
+    max-width: 830px;
+    margin: 0 auto;
+    /* margin: 32px 0px; */
+    
+}
+
+#social-page .social-content .extra .heading
+{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+#social-page .social-content .extra .pera
+{
+    opacity: 0.6;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+} 
+.part2 .extra .extra-para
+{
+    opacity: 0.7;
+    text-align: center;
+}
+.part2 .extra .barti
+{
+    width: 100%;
+    /* margin-left: -270px; */
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px 30px 10px;
+}
+#social-page .social-content .extra .extra-para
+{
+    opacity: 0.7;
+    text-align: center;
+}
+#social-page .social-content .extra .barti
+{
+    width: 1320px;
+    margin-left: -270px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px 30px 10px;
+}
+#social-page .social-content .extra .hrr
+{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+#social-page .social-content .extra
+{
+    margin: 50px 0px 0px 0px;
+}
+#p-icon
+{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 1%;
+    margin-right: auto; */
+}
+#p-icon .icon .indivisual-icon
+{
+    padding-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+/* .last-page .part1
+{
+    width: 100vh;
+    
+} */
+
+.p-last
+{
+    display: flex;
+    width: 100%;
+}
+.last-page .part2 .extra .heading
+{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    
+}
+.last-page .part2 .extra .pera
+{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.last-page .part2 .extra .extra-para
+{
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.p-last .part1, .p-last .part2 {
+    width: 100%;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.p-last .part1 img
+{
+    width: 100%;
+}
+.p-last .part2 .part2-content
+{
+    max-width: 830px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.part2 .part2-content .icon .indivisual-icon
+{
+    align-items: center;
+}
